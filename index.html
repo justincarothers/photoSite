@@ -8,7 +8,7 @@
     <meta name="photography website" content="">
     <meta name="author" content="">
     <title>JCFoto Site</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+
 
     <!-- Linking the Bootstrap Core CSS
     1) Go to http://bootstrap.com/getting-started
@@ -24,19 +24,18 @@
 
     <script src="https://use.fontawesome.com/93eb1037b9.js"></script>
 
+    <!-- PUT Style AFTER Bootstrap Style to override! -->
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
   </head>
 
   <body>
 
   <!--                    NAV BAR
   ===========================================================     -->
-  <nav class="navbar ">
-
-    <div class="container navbar">
-
-
-
-
+  <nav class="navbar">
+    <div class="">
       <ul class="nav nav-pills">
         <li> <a class="navbar-brand" href="#">jcfoto</a> <li>
         <li role="presentation" class="active"><a href="index.html">HOME</a></li>
@@ -48,12 +47,26 @@
       </ul>
     </div>
   </nav>
-
   <div class="jumbotron">
     <h1>Headline Example!</h1>
     <p>A headline's purpose is to quickly and briefly draw attention to the story. It is generally written by a copy editor, but may also be written by the writer, the page layout designer, or other editors. The most important story on the front page above the fold may have a larger headline if the story is unusually important. The New York Times's 21 July 1969 front page stated, for example, that "MEN WALK ON MOON", with the four words in gigantic size spread from the left to right edges of the page.[2]</p>
     <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4" id="landscape">
+        Column 1
+      </div>
+      <div class="col-xs-4">
+    Column 2
+    </div>
+    <div class="col-xs-4">
+    Column 3
+    </div>
+  </div>
+</div>
+
+
 
 
 
