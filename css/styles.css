@@ -1,15 +1,13 @@
 
+.okgo {
+  background-image:url('../img/background.jpg');
+  background-position: center;
 
-body {
-      background-image:url('../img/background.jpg');
-      background-position: center;
-      
-      padding: 30;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-
-
+  padding: 30;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 
 .jumbotron p {
   color: #fff;
